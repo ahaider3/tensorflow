@@ -81,6 +81,8 @@ py_library(
         "//tensorflow/contrib/tpu:tpu_py",
         "//tensorflow/contrib/training:training_py",
         "//tensorflow/contrib/util:util_py",
+        "//tensorflow/contrib/collectives:collectives_py",
+
     ],
 )
 
@@ -113,6 +115,7 @@ cc_library(
         "//tensorflow/contrib/boosted_trees:boosted_trees_ops_op_lib",
         "//tensorflow/contrib/cudnn_rnn:cudnn_rnn_ops_op_lib",
         "//tensorflow/contrib/factorization:all_ops",
+        "//tensorflow/contrib/collecives:all_ops",
         "//tensorflow/contrib/framework:all_ops",
         "//tensorflow/contrib/input_pipeline:input_pipeline_ops_op_lib",
         "//tensorflow/contrib/layers:sparse_feature_cross_op_op_lib",
